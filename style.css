@@ -1,0 +1,13 @@
+.row {
+  color: white;
+  border: 2px solid red;
+}
+.d-flex {
+  justify-content: center;
+  align-items: center;
+}
+.row [class^="col"] {
+  background-color: blue;
+  border: 2px solid white;
+  min-height: 80px;
+}
