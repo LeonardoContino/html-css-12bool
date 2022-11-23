@@ -2,6 +2,12 @@
 
 .d-flex-start {
   justify-content: flex-start;
+  display: flex;
+}
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .bgc-green {
   background-color: green;
@@ -16,15 +22,10 @@
   background-color: blue;
   border: 2px solid white;
   min-height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .row > .col-6 > [class^="col"] {
   color: white;
   padding: 2px;
   background-color: green;
-  display: flex;
-  justify-content: flex-start;
 }
