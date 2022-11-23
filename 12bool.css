@@ -13,9 +13,11 @@
   display: flex;
 }
 .d-flex-start {
+  display: flex;
   justify-content: flex-start;
 }
 .d-flex-center {
+  display: flex;
   justify-content: center;
   align-items: center;
 }

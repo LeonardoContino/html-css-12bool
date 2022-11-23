@@ -7,6 +7,7 @@
 .row {
   color: white;
   border: 2px solid red;
+  margin-bottom: 50px;
 }
 
 [class^="col"] {
@@ -17,6 +18,11 @@
 
 .row > .col-6 > [class^="col"] {
   color: white;
-  padding: 2px;
   background-color: green;
+}
+.col-6 {
+  padding: 20px;
+}
+.col-6 > * {
+  border: 2px solid blue;
 }
