@@ -12,6 +12,13 @@
 .d-flex {
   display: flex;
 }
+.d-flex-start {
+  justify-content: flex-start;
+}
+.d-flex-center {
+  justify-content: center;
+  align-items: center;
+}
 
 /* row */
 
